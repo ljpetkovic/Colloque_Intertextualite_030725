@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  3 JUL 2025 09:25
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  3 JUL 2025 10:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2431,6 +2431,9 @@ LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 LaTeX Warning: Label `fig:prob1_6_2' multiply defined.
 
 
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
 LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 
 
@@ -3075,12 +3078,8 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [26
 
 ] (./resultats.tex
-File: pic/termes_partages.png Graphic file (type bmp)
-<pic/termes_partages.png>
-
-Overfull \vbox (0.82422pt too high) detected at line 63
- []
-
+File: pic/repartition_motifs_POS.png Graphic file (type bmp)
+<pic/repartition_motifs_POS.png>
 
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
@@ -3089,10 +3088,10 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [27
 
 ]
-File: pic/termes_viz.png Graphic file (type bmp)
-<pic/termes_viz.png>
+File: pic/termes_partages.png Graphic file (type bmp)
+<pic/termes_partages.png>
 
-Overfull \vbox (9.08258pt too high) detected at line 82
+Overfull \vbox (0.82422pt too high) detected at line 71
  []
 
 
@@ -3102,19 +3101,33 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 
 [28
 
-]) (./0_main.toc)
+]
+File: pic/termes_viz.png Graphic file (type bmp)
+<pic/termes_viz.png>
+
+Overfull \vbox (9.08258pt too high) detected at line 90
+ []
+
+
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
 [29
 
-] (./eval_quali.tex
+]) (./0_main.toc)
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
 [30
+
+] (./eval_quali.tex
+Overfull \hbox (54.62706pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[31
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
@@ -3133,14 +3146,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[31
+[32
 
 ]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[32
+[33
 
 ]
 File: pic/cooccurrences.png Graphic file (type bmp)
@@ -3154,28 +3167,28 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[33
+[34
 
 ]) (./0_main.toc)
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[34
+[35
 
 ] (./conclusion.tex
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[35
+[36
 
 ]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[36
+[37
 
 ])
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -3245,15 +3258,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[37
-
-]
-Overfull \hbox (54.62706pt too wide) has occurred while \output is active
-[][] 
- []
-
 [38
-
 
 ]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
@@ -3279,12 +3284,20 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [41
 
 
-] (./annexe.tex
+]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
 [42
+
+
+] (./annexe.tex
+Overfull \hbox (54.62706pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[43
 
 ]
 LaTeX Font Info:    Font shape `TU/AlegreyaSans(0)/b/n' will be
@@ -3294,14 +3307,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[43
+[44
 
 ]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[44
+[45
 
 ]
 Underfull \hbox (badness 5119) in paragraph at lines 121--121
@@ -3343,7 +3356,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[45
+[46
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 152--152
@@ -3372,7 +3385,7 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[46
+[47
 
 ]
 Underfull \hbox (badness 1137) in paragraph at lines 185--185
@@ -3389,14 +3402,14 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[47
+[48
 
 ]
 Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [][] 
  []
 
-[48
+[49
 
 ])
 \tf@nav=\write7
@@ -3413,18 +3426,18 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `0_main.out' has not changed.
-(rerunfilecheck)             Checksum: 18A78E9C31195529661B9625B6D3931B;3064.
+(rerunfilecheck)             Checksum: B5650381C4896DB7B05AF3AFE6A41415;3064.
 Package logreq Info: Writing requests to '0_main.run.xml'.
 \openout1 = `0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49449 strings out of 476683
- 1059671 string characters out of 5804046
- 1924018 words of memory out of 5000000
- 68598 multiletter control sequences out of 15000+600000
+ 49463 strings out of 476683
+ 1060045 string characters out of 5804046
+ 1925018 words of memory out of 5000000
+ 68611 multiletter control sequences out of 15000+600000
  559084 words of font info for 225 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,20n,122p,1891b,5779s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (48 pages).
+Output written on 0_main.pdf (49 pages).
