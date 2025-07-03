@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '0_main.blg'
+[31] biber-darwin:340> INFO - === Mon Jun 30, 2025, 19:09:20
+[40] Biber.pm:419> INFO - Reading '0_main.bcf'
+[74] Biber.pm:979> INFO - Found 20 citekeys in bib section 0
+[81] Biber.pm:4419> INFO - Processing section 0
+[86] Biber.pm:4610> INFO - Looking for bibtex file 'bibliographie.bib' for section 0
+[89] bibtex.pm:1713> INFO - LaTeX decoding ...
+[125] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliographie.bib'
+[206] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[206] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[206] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[206] Biber.pm:4245> INFO - No sort tailoring available for locale 'fr-FR'
+[222] bbl.pm:660> INFO - Writing '0_main.bbl' with encoding 'UTF-8'
+[231] bbl.pm:763> INFO - Output to 0_main.bbl
+[231] Biber.pm:131> WARN - Duplicate entry key: 'schopf2022' in file 'bibliographie.bib', skipping ...
+[231] Biber.pm:133> INFO - WARNINGS: 1

@@ -1,0 +1,221 @@
+\begin{frame}
+\begin{center}
+	\Large Annexe
+\end{center}
+\end{frame}
+
+\begin{frame}{Domaine impactant (globalement) : \textbf{hypnose}}
+	
+	\begin{table}[h]
+		\resizebox{\textwidth}{!}{%
+			\centering
+			\begin{tabular}{|l|r|r|r|r|r|}
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Terme}} &
+				\multicolumn{1}{c|}{\textbf{TF-IDF} (\textit{TermSuite})} & 	
+				\multicolumn{1}{c|}{\textbf{TF-IDF}} & 	
+				\multicolumn{1}{c|}{\textbf{BM25}} & 	
+				\multicolumn{1}{c|}{\textit{\textbf{PatternRank}}} & 
+				\multicolumn{1}{c|}{\textbf{Moyenne}} \\
+				\hline
+				\rowcolor{yellow!30}\textit{hypnose} & 0,3543 & 1 & 0,2922 & 0,7738 & \bolder{0,6050} \\
+				\textit{embarras parole} & NA & 0,0018 & 0,9347 & NA & 0,4683 \\
+				\textit{tics convulsifs} & NA & 0,1293 & 0,8385 & 0,8331 & 0,4502 \\
+				\textit{arthropathies tabétiques} & 0,33 & 0,0934 & 0,4928 & 0,7506 & 0,4167 \\
+				\textit{atrophie musculaire progressive} & 0,40 & 0,1118 & 0.3489 & 0,8053 & 0,4165 \\
+				\textit{ataxie locomotrice progressive} & 0,32 & 0,0386 & 0,4877 &  0,7431 & 0,3974 \\
+				\textit{localisations cérébrales} & 0,43 & 0,034 & 0,3017 & 0,8090 & 0,3937 \\
+				\textit{hystérie} & 0,2724 & 0,3711 & 0,0442 & 0,8018 & 0,3723 \\
+				\textit{athétose} & NA & 0,2029 & 0,274 & 0,8068 & 0,3209 \\
+				\textit{maladie de Parkinson} & 0,05 & 0,0775 & 0,333 & 0,7936 & 0,3135 \\
+				\textit{aphasie} & 0,0587 & 0,2245 & 0,1334 & 0,7960 & 0,3031 \\
+				\textit{trépidation épileptoïde du pied} & 0,0198 & 0,1227 & 0,2919 & 0,7597 & 0,2985 \\
+				\textit{astasie-abasie} & NA & 0,0478 & 0,3565 & 0,7375 & 0,2855 \\
+				\textit{nystagmus} & 0,0243 & 0,1326 & 0,146 & 0,7474 & 0,2626 \\
+				\textit{chorées} & NA & 0,1336 & 0,0701 & 0,8047 & 0,2521 \\
+				\textit{épilepsie} & NA & 0,164 & 0,0247 & 0,8199 & 0,2521 \\
+				\textit{sclérose en plaques disséminées} & NA  & 0,178 & 0,8089 & NA & 0,2467 \\
+				\textit{tremblement} & NA & 0,1686 & 0,0362 & 0,7683 & 0,2432 \\
+				\textit{systématisation de l'organisation de la moëlle épinière} & NA & NA & NA & 0,7937 & 0,1888 \\
+				\textit{sclérose latérale amyotrophique} & NA & 0,044 & 0,6586 & NA & 0,1757 \\
+				\hline
+			\end{tabular}
+		}
+		\caption{Les scores de pertinence pour les termes de référence à partir du corpus \og{}Autres\fg{}.}
+	\end{table}
+	{\small Moyenne pour tous les termes combinés : 0,3214}
+\end{frame}
+
+
+
+
+
+\begin{frame}{Domaine impactant (\textit{PatternRank}) : \textbf{syndrome de Tourette}}
+	
+	\begin{table}[h]
+		\resizebox{\textwidth}{!}{%
+			\centering
+			\begin{tabular}{|l|r|r|r|r|r|}
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Terme}} &
+				\multicolumn{1}{c|}{\textbf{TF-IDF} (\textit{TermSuite})} & 	
+				\multicolumn{1}{c|}{\textbf{TF-IDF}} & 	
+				\multicolumn{1}{c|}{\textbf{BM25}} & 	
+				\multicolumn{1}{c|}{\textit{\textbf{PatternRank}}} & 
+				\multicolumn{1}{c|}{\textbf{Moyenne}} \\
+				\hline
+				\rowcolor{yellow!30}\textit{tics convulsifs} & NA & 0,1293 & 0,8385 & 0,8331 & \bolder{0,4502} \\
+%				\footnote{Le score le plus élevé parmi les termes \textbf{inventés} par Charcot $\neq$ \textit{hypnose}.} \\
+				\textit{épilepsie} & NA & 0,164 & 0,0247 & 0,8199 & 0,2521 \\
+				\textit{localisations cérébrales} & 0,43 & 0,034 & 0,3017 & 0,8090 & 0,3937 \\
+				\textit{athétose} & NA & 0,2029 & 0,274 & 0,8068 & 0,3209 \\
+				\textit{atrophie musculaire progressive} & 0,40 & 0,1118 & 0.3489 & 0,8053 & 0,4165 \\
+				\textit{chorées} & NA & 0,1336 & 0,0701 & 0,8047 & 0,2521 \\
+				\textit{hystérie} & 0,2724 & 0,3711 & 0,0442 & 0,8018 & 0,3723 \\
+				\textit{aphasie} & 0,0587 & 0,2245 & 0,1334 & 0,7960 & 0,3031 \\
+				\textit{systématisation de l'organisation de la moëlle épinière} & NA & NA & NA & 0,7937 & 0,1888 \\
+				\textit{maladie de Parkinson} & 0,05 & 0,0775 & 0,333 & 0,7936 & 0,3135 \\
+				\textit{hypnose} & 0,3543 & 1 & 0,2922 & 0,7738 & 0,6050 \\
+				\textit{tremblement} & NA & 0,1686 & 0,0362 & 0,7683 & 0,2432 \\
+				\textit{trépidation épileptoïde du pied} & 0,0198 & 0,1227 & 0,2919 & 0,7597 & 0,2985 \\
+				\textit{arthropathies tabétiques} & 0,33 & 0,0934 & 0,4928 & 0,7506 & 0,4167 \\
+				\textit{nystagmus} & 0,0243 & 0,1326 & 0,146 & 0,7474 & 0,2626 \\
+				\textit{ataxie locomotrice progressive} & 0,32 & 0,0386 & 0,4877 & 0,7431 & 0,3974 \\
+				\textit{astasie-abasie} & NA & 0,0478 & 0,3565 & 0,7375 & 0,2855 \\
+				\textit{sclérose en plaques disséminées} & NA  & 0,178 & 0,8089 & NA & 0,2467 \\
+				\textit{embarras parole} & NA & NA & 0,0018 & NA & 0,2341 \\
+				\textit{sclérose latérale amyotrophique} & NA & 0,044 & 0,6586 & NA & 0,1757 \\
+				\hline
+			\end{tabular}
+		}
+		\caption{Les scores de pertinence pour les termes de référence à partir du corpus \og{}Autres\fg{}.}
+	\end{table}
+	{\small Moyenne pour tous les termes combinés : 0,3214}
+\end{frame}
+
+
+\begin{frame}{Références à Charcot}
+	
+	\begin{table}
+		\centering
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|l|p{10cm}|}
+				\hline
+				\textbf{Terme} & \textbf{Contexte} \\
+				\hline
+				\rowcolor{yellow!30}\textit{maladie de Parkinson} & [$\dots$] \underline{paralysie agitante} que \textbf{Charcot} a eu raison de dénommer \underline{maladie de Parkinson} \\
+				\hline
+				\textit{ataxie locomotrice progressive} & [$\dots$] arthropathies [$\dots$] de l'\underline{ataxie locomotrice}, [$\dots$] signalées, pour la première fois, par M. \textbf{Charcot}. \\
+				& [$\dots$] \underline{ataxie locomotrice progressive}, constatée par douze médecins, parmi lesquels, [$\dots$] MM. \textbf{Charcot} [$\dots$] \\
+				\hline
+				\textit{arthropathies tabétiques} & [$\dots$] mais personne n'avait encore décrit des cas d'\underline{arthropathie tabétique}, lorsque, en 1808, M. le professeur \textbf{Charcot} publia la première observation d'arthropathie chez un ataxique.\\
+				\hline
+				\textit{trépidation épileptoïde du pied} & [$\dots$] \underline{trépidation}, qui se propage parfois à tous les \underline{membres}. Ce spasme, [$\dots$] peut entraîner à sa suite des rétractions fibro-tendineuses analogues à celles que \textbf{Charcot} a décrites chez l'homme, [$\dots$] \\
+				\hline
+				\textit{sclérose en plaques disséminées} & [$\dots$] une combinaison de la \underline{sclérose en plaques}, bien décrite déjà par \textbf{Charcot} et Vulpian [$\dots$] \\
+				\hline
+			\end{tabular}
+		}
+		\caption{Concordance des termes médicaux faisant référence à Charcot -- corpus Autres.}
+	\end{table}
+\end{frame}
+
+
+\begin{frame}{Références à Charcot}
+	
+	\begin{table}
+		\centering
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|l|p{10cm}|}
+				\hline
+				\textbf{Terme} & \textbf{Contexte} \\
+				\hline
+				\textit{tremblement} & [$\dots$] \textbf{Charcot} présentait, dans son amphithéâtre, pour démontrer les caractères oscillatoires des diverses variétés de \underline{tremblements}. \\
+				\hline
+				\textit{nystagmus} & SCLÉROSE EN PLAQUES [$\dots$] [$\dots$], \underline{nystagmus}, [$\dots$]. La difficulté de la résoudre est d'autant plus grande qu'à côté des foyers de sclérose en plaques avec tous les caractères histologiques classiques décrits depuis \textbf{Charcot}, il y a des foyers avec une
+				destruction plus ou moins complète des cylindraxes [$\dots$]\\
+				\hline
+				\rowcolor{yellow!30}\textit{embarras parole} & Lorsqu'on se trouve en présence d'un malade ayant de l'\underline{embarras de la parole} [$\dots$] A. La réponse à la première proposition n'est nullement embarrassante, si l'on veut se rappeler ces paroles de M. le professeur \textbf{Charcot} : [$\dots$] \\
+				\hline
+				\textit{sclérose latérale amyotrophique} & [$\dots$] \underline{sclérose latérale amyotrophique}, maladie découverte par mon illustre maître \textbf{Charcot}. \\
+				\hline
+				\rowcolor{yellow!30}\textit{tics convulsifs} & désignée par M. \textbf{Charcot} sous le nom de maladie des \underline{tics convulsifs} \\
+				\hline
+				\textit{atrophie musculaire progressive} & \textbf{Charcot} et Marie ont décrit la \og{}forme particulière d'\underline{atrophie musculaire progressive}\fg{}\\
+				\hline
+				\textit{aphasie} & Lorsqu'il y a, dit M. le professeur \textbf{Charcot} (1), suppression de la mémoire pour l'articulation des mots, c'est l'\underline{aphasie} motrice d'articulation ou \underline{aphasie} de Broca qui se présente.\\
+				\hline
+			\end{tabular}
+		}
+		\caption{Concordance des termes médicaux faisant référence à Charcot -- corpus Autres (suite).}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Références à Charcot}
+	
+	\begin{table}
+		\centering
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{|l|p{10cm}|}
+				\hline
+				\textbf{Terme} & \textbf{Contexte} \\
+				\hline
+				\textit{astasie-abasie} & [$\dots$] forme particulière d'impuissance motrice dont M. P. Blocqe a donné la
+				définition suivante \og{}[$\dots$], et qu'il a désigné sous le nom expressif d'\underline{astasie} et d'\underline{abasie}. C'est là un état morbide sur lequel M. le professeur \textbf{Charcot} est	fréquemment revenu dans ses Leçons du mardi [$\dots$]\\
+				\hline
+				\textit{athétose} & symptôme désigné par M. W. Hammond sous le nom d'\underline{athétose} [$\dots$] M. \textbf{Charcot} a fait remarquer que cette définition était imparfaite pour les motifs suivants : [$\dots$] \\
+				\hline
+				\textit{chorées} & \underline{Chorée} hystérique ou rhythmique. C'est à M. le professeur \textbf{Charcot} que nous devons une exacte description de cet état pathologique. \\
+				\hline
+				\textit{hystérie} & C'est encore à \textbf{lui} [Charcot] que nous devons la connaissance de l'\underline{hystérie} traumatique [$\dots$] \\
+				\hline
+				\rowcolor{yellow!30}\textit{épilepsie} & M. \textbf{Charcot} a décrit avec le plus grand soin l'\underline{épilepsie} partielle d'origine syphilitique [$\dots$] \\
+				\hline
+				\rowcolor{yellow!30}\textit{hypnose} & Les trois états de l'\underline{hypnose} décrits par M. \textbf{Charcot} sont devenus classiques, [$\dots$] \\
+				\hline
+				\textit{systématisation de l'organisation de la moëlle épinière} & \underline{systématisation de la moelle}, synthèses [$\dots$]. Mais \textbf{Charcot}, on l'a vu, est, par nature, enclin à la synthèse. \\
+				\hline
+				\rowcolor{yellow!30}\textit{localisations cérébrales} & Je vous ai montré \textbf{Charcot}, concourant pour
+				la plus grosse part, à l'édification de la doctrine des \underline{localisations cérébrales}, qui est devenue quelque chose comme la préface d'une psychologie nouvelle.\\
+				\hline
+			\end{tabular}
+		}
+		\caption{Concordance des termes médicaux faisant référence à Charcot -- corpus Autres (fin).}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Analyse des cooccurrences}
+\begin{table}[h]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{rrrrrr}
+			\textbf{Terme} & \textbf{Cooccurrent} & \textbf{Fréquence} & \textbf{Co-fréquence} & \textbf{Indice} & \textbf{Distance moyenne} \\
+			\hline
+			\rowcolor{yellow!30}chorées & Sydenham & 129 & 63 & \bolder{163} & 1,1 \\
+			épilepsie & Jackson & 52 & 34 & 78 & 0,2 \\
+			embarras parole & Chervin & 41 & 8 & 17 & 4,5\\
+			hystérie & Charcot & 2 968 & 52 & 19 & 5,4\\
+			trépidation épileptoïde du pied & Babinski $\cdot$ Charcot & 1 134 & 8 & 12 & 4,8 \\
+			hypnose & Braid & 567 & 14 & 12 & 4,7 \\
+			nystagmus & Barany & 11 & 3 & 7 & 3,3\\
+			tics convulsifs & Charcot & 2 968 & 6 & 8 & 5,2 \\
+			localisations cérébrales & Charcot & 2 968 & 9 & 7 & 5,3 \\
+			arthropathies tabétiques & Charcot & 2 968 & 4 & 5 & 1,5 \\
+			athétose & Hammond & 34 & 2 & 4 & 1,5\\
+			sclérose latérale amyotrophique & Charcot & 2 968 & 4 & 3 & 3,5 \\
+			atrophie musculaire progressive & Charcot & 2 968 & 4 & 3 & 6,0 \\
+			sclérose en plaques disséminées & Charcot & 2 968 & 7 & 3 & 6,3 \\
+			aphasie & Charcot & 2 968 & 7 & 2 & 4,0\\
+			tremblement & Achard & 137 & 3 & 2 &  2,3\\
+			ataxie locomotrice progressive  & Charcot & 2 968 & 3 & 2 & 5,3 \\
+			maladie de Parkinson  & Charcot & 2 968 & 3 & 2 & 3,3\\
+			astasie-abasie & Charcot & 2 968 & 2 & 2 & 1,5 \\
+			systématisation $\dots$ moëlle épinière & NA & NA & NA & NA & NA \\
+		\end{tabular}
+	}
+	\caption{Analyse des cooccurrences des termes médicaux à partir du corpus Autres.}
+	\label{tab:cooccurrences}
+\end{table}
+
+	
+\end{frame}

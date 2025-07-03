@@ -1,5 +1,9 @@
-# Présentation pour le colloque sur l'intertextualite 
+# Présentation de la thèse · GT4 du consortium ARIANE
 
-« <a href="https://www.fabula.org/actualites/122618/le-texte-de-l-autre-dialogue-interdisciplinaire-autour-de-l-intertextualite-et-du-discours-rapporte.html">Le Texte de l'autre. Dialogue interdisciplinaire autour de l'intertextualité et du discours rapporté</a> »
+Présentation des travaux de l'ObTIC, consacrés à l'analyse littéraire assistée par l'IA.
 
-3 juillet 2025 · École des Chartes ; salle Léopold-Delisle, 65, rue de Richelieu, 75002 Paris.
+17/06/2025<br>
+SCAI, salle du conseil
+
+en visio : <a href="https://us02web.zoom.us/j/89027418890?pwd=NVhRM042YW1xVHpwMHNnZTNyZ1UwQT09">`https://us02web.zoom.us/j/89027418890?pwd=NVhRM042YW1xVHpwMHNnZTNyZ1UwQT09`</a>
+
