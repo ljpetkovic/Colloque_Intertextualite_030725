@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  3 JUL 2025 10:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  3 JUL 2025 11:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3088,10 +3088,10 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [27
 
 ]
-File: pic/termes_partages.png Graphic file (type bmp)
-<pic/termes_partages.png>
+File: pic/termes_viz.png Graphic file (type bmp)
+<pic/termes_viz.png>
 
-Overfull \vbox (0.82422pt too high) detected at line 71
+Overfull \vbox (9.08258pt too high) detected at line 82
  []
 
 
@@ -3102,10 +3102,10 @@ Overfull \hbox (54.62706pt too wide) has occurred while \output is active
 [28
 
 ]
-File: pic/termes_viz.png Graphic file (type bmp)
-<pic/termes_viz.png>
+File: pic/termes_partages.png Graphic file (type bmp)
+<pic/termes_partages.png>
 
-Overfull \vbox (9.08258pt too high) detected at line 90
+Overfull \vbox (0.82422pt too high) detected at line 91
  []
 
 
